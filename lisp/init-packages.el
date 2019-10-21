@@ -20,6 +20,7 @@
 		      org
 		      org-journal
 		      smex
+		      terraform-mode
 		      twittering-mode
 		      ))
 
