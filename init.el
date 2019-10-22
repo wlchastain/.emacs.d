@@ -4,6 +4,8 @@
 (add-to-list 'load-path (expand-file-name "~/.emacs.d/custom-lisp/"))
 
 (require 'init-packages)
+(require 'init-org)
+
 
 ;;smex settings
 (global-set-key (kbd "M-x") 'smex)
