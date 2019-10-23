@@ -5,7 +5,7 @@
 
 (require 'init-packages)
 (require 'init-org)
-
+(require 'init-python)
 
 ;;smex settings
 (global-set-key (kbd "M-x") 'smex)
@@ -61,6 +61,8 @@
 )
 
 (defvar timestamp-format "%Y-%m-%d %H:%M:%S")
+
+(exec-path-from-shell-initialize)
 
 (defun timestamp ()
   (interactive)

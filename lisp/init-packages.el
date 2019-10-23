@@ -12,7 +12,10 @@
 		      auto-complete
 		      auto-complete-auctex
 		      batch-mode
+		      ein
+		      elpy
 		      ess
+		      exec-path-from-shell
 		      f
 		      js2-mode
 		      magit
