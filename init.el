@@ -64,10 +64,8 @@
 
 (defun timestamp ()
   (interactive)
-  (insert (format-time-string timestamp-format(current-time) "\n")
-	  )
-  (insert "\n")
-  )
+  (insert (format-time-string timestamp-format(current-time) "\n"))
+  (insert "\n"))
 
 (setq custom-file "~/.emacs.d/lisp/init-custom.el")
 (load custom-file)
