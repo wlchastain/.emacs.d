@@ -46,7 +46,7 @@
 (setq show-paren-style 'parenthesis)
 (show-paren-mode +1)
 
-(load-theme 'tsdh-dark)
+(load-theme 'sanityinc-tomorrow-bright)
 
 (add-to-list 'auto-mode-alist '("\\.bat\\'" . batch-mode))
 
