@@ -64,6 +64,13 @@
 
 (exec-path-from-shell-initialize)
 
+(require 'ediff)
+;; don't start another frame
+;; this is done by default in preluse
+(setq ediff-window-setup-function 'ediff-setup-windows-plain)
+;; put windows side by side
+(setq ediff-split-window-function (quote split-window-horizontally))
+
 (defun timestamp ()
   (interactive)
   (insert (format-time-string timestamp-format(current-time) "\n"))
