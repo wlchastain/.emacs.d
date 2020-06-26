@@ -17,6 +17,7 @@
 		      ess
 		      exec-path-from-shell
 		      f
+		      impatient-mode
 		      js2-mode
 		      magit
 		      neotree
