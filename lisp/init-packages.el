@@ -25,6 +25,7 @@
 		      org-journal
 		      smex
 		      terraform-mode
+		      typescript-mode
 		      twittering-mode
 		      ))
 
